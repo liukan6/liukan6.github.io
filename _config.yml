@@ -21,7 +21,7 @@ repository               : "liukan6/liukan6.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "liukan.jpg"
   name             : "Kan Liu"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
