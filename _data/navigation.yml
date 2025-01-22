@@ -6,7 +6,7 @@
 
 main:
   - title: "Gallery"
-    url: /Gallery/
+    url: /gallery/
 
   # - title: "Publications"
   #   url: /publications/
