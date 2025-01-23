@@ -11,7 +11,7 @@ redirect_from:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kan Liu</title>
+    <title>Home</title>
     <style>
       table {
         width: 100%;
@@ -21,15 +21,26 @@ redirect_from:
         padding: 5pt;
         vertical-align: middle;
       }
-      .first-column {
+      .publication-first-column {
         width: 25%;
         text-align: center;
         vertical-align: middle;
       }
-      .second-column {
+      .publication-second-column {
         width: 75%;
         text-align: left;
         vertical-align: middle;
+      }
+      .experience-first-column {
+        width: 15%;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .experience-second-column {
+        width: 85%;
+        text-align: left;
+        vertical-align: top;
+        font-size: 12px;
       }
       .blue-bold {
         color: navy;
@@ -58,18 +69,18 @@ redirect_from:
       <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>.
     </p>
 
-    <h3>Experience</h3>
+    <h2>Experience</h2>
 
     <!-- Experience Table -->
     <table style="width: 100%; border: none; border-collapse: collapse">
       <tr>
-        <td style="width: 15%; vertical-align: middle; text-align: center">
+        <td class="experience-first-column">
           <img
             src="https://liukan6.github.io/images/zju.png"
-            alt=""
+            alt="zju logo"
             style="width: 70%" />
         </td>
-        <td style="width: 85%; vertical-align: top; font-size: 12px">
+        <td class="experience-second-column">
           <span style="font-size: 16px; font-weight: bold"
             >Zhejiang University</span
           ><br />
@@ -82,13 +93,13 @@ redirect_from:
         </td>
       </tr>
       <tr>
-        <td style="width: 15%; vertical-align: middle; text-align: center">
+        <td class="experience-first-column">
           <img
             src="https://liukan6.github.io/images/oxford.png"
-            alt=""
+            alt="oxford logo"
             style="width: 70%" />
         </td>
-        <td style="width: 85%; vertical-align: top; font-size: 12px">
+        <td class="experience-second-column">
           <span style="font-size: 16px; font-weight: bold"
             >University of Oxford</span
           ><br />
@@ -98,17 +109,17 @@ redirect_from:
       </tr>
     </table>
 
-    <h3>Publications</h3>
+    <h2>Publications</h2>
 
     <!-- Publications Table -->
     <table>
       <tr>
-        <td class="first-column">
+        <td class="publication-first-column">
           <img
             src="https://liukan6.github.io/images/advs9226-fig-0001-m.jpg"
             width="80%" />
         </td>
-        <td class="second-column">
+        <td class="publication-second-column">
           <span class="blue-bold"
             >Biomimetic Hydrodynamic Sensor with Whisker Array Architecture and
             Multidirectional Perception Ability</span
